@@ -1,0 +1,19 @@
+body {
+  padding: 40px;
+}
+.antd-multi-table .ant-table-tbody > tr > td {
+  border-bottom-color: transparent;
+}
+
+.antd-multi-table-cell {
+  position: relative;
+}
+
+.antd-multi-table-cell-content {
+  display: flex;
+}
+
+.antd-multi-table-filter-cell {
+  display: flex;
+  align-items: center;
+}

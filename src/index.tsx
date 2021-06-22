@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import IndentLineTable from "./IndentLineTable";
+import IndentLineTableDemo from "./IndentLineTable/demo";
 
-ReactDOM.render(<IndentLineTable />, document.getElementById("root"));
+import "antd/dist/antd.css";
+import "./index.css";
+
+ReactDOM.render(<IndentLineTableDemo />, document.getElementById("root"));

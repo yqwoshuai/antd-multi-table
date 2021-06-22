@@ -2,11 +2,14 @@
   "name": "antd-multi-table",
   "version": "0.0.0",
   "scripts": {
+    "start": "npm run dev",
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "antd": "^4.15.3",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
